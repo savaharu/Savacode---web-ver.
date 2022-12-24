@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	</head>
+	<body style="background: black;">
+	    <div id="id_top" style="display: inline;">
+		   <p id="id_filename" style="padding-left: 20px; font-size: 3.6em; color: white; display: inline;">SavaCode</p>
+		   <p class="controls" id="id_opfile" style="font-size: 2em; color: white; display: inline; margin-left: 30px">FILE OPEN...</p>
+		   <p class="controls" id="id_safile" style="font-size: 2em; color: white; display: inline; margin-left: 30px">SAVE...</p>
+		   <p class="controls" id="id_saasfile" style="font-size: 2em; color: white; display: inline; margin-left: 20px">SAVE As...</p>
+		   <p class="controls" id="id_info" style="font-size: 2em; color: white; display: inline; margin-left: 30px">このアプリの情報</p>
+        </div>
+            <div id="id_edit_screen" style="margin-top: 30px; margin-left: 50px; padding-bottom: 540px; padding-right: 600px text-align: center;">
+                <textarea style="font-size: 2em;" cols=90 rows="20" id="id_editor" placeholder="ここに入力するんだぜ"></textarea>
+		   </div>
+		<style>
+			html,body{
+				overflow: hidden
+			}
+			textarea {
+				background: black;
+				color: white;
+			}
+            
+			.controls:hover {
+				cursor: pointer;
+			}
+		</style>
+		<script src="script.js"></script>
+	</body>
+</html>
